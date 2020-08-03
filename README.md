@@ -5,9 +5,6 @@ Example usage:
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
-import lightkurve as lk
-import astropy.units as u
-from tqdm import tqdm
 from runningperiodogram import runningperiodogram
 
 #Dramatic example of sinusoid with sinusoidal frequency modulation
