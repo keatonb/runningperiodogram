@@ -23,6 +23,7 @@ runningperiodogram requires [lightkurve](https://docs.lightkurve.org/) and light
 
 Here are the parameters for the runningperiodogram function:
 ```python
+"""
 Parameters
 ----------
 time : array
@@ -56,4 +57,6 @@ colorbar: bool
     whether to display colorbar (default True)
 filename: string
     filename to save to. Figure displays if not provided (default None)
+
+"""
 ```
